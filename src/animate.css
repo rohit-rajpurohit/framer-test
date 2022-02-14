@@ -1,0 +1,41 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 20vw;
+  background-color: darkred;
+  margin: 2%;
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 20vw;
+  background-color: darkgreen;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+  width: 8vw;
+  background-color: blueviolet;
+  margin: 10%;
+  border-radius: 8px;
+}
